@@ -17,5 +17,10 @@ namespace AikonCWD_W10S_GUI.Forms
             InitializeComponent();
             this.MaximizeBox = false;
         }
+
+        private void btn_continuar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

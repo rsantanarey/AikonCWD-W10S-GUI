@@ -30,29 +30,29 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button14 = new System.Windows.Forms.Button();
+            this.btn_12 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.button16 = new System.Windows.Forms.Button();
+            this.btn_11 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
-            this.button18 = new System.Windows.Forms.Button();
+            this.btn_10 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
-            this.button20 = new System.Windows.Forms.Button();
+            this.btn_9 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
-            this.button22 = new System.Windows.Forms.Button();
+            this.btn_8 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
-            this.button24 = new System.Windows.Forms.Button();
+            this.btn_7 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
-            this.button12 = new System.Windows.Forms.Button();
+            this.btn_6 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.button10 = new System.Windows.Forms.Button();
+            this.btn_5 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btn_4 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btn_3 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn_2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -67,29 +67,29 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button14);
+            this.groupBox1.Controls.Add(this.btn_12);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.button16);
+            this.groupBox1.Controls.Add(this.btn_11);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.button18);
+            this.groupBox1.Controls.Add(this.btn_10);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.button20);
+            this.groupBox1.Controls.Add(this.btn_9);
             this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.button22);
+            this.groupBox1.Controls.Add(this.btn_8);
             this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.button24);
+            this.groupBox1.Controls.Add(this.btn_7);
             this.groupBox1.Controls.Add(this.label13);
-            this.groupBox1.Controls.Add(this.button12);
+            this.groupBox1.Controls.Add(this.btn_6);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.button10);
+            this.groupBox1.Controls.Add(this.btn_5);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.button8);
+            this.groupBox1.Controls.Add(this.btn_4);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.button6);
+            this.groupBox1.Controls.Add(this.btn_3);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.btn_2);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btn_1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(15, 30);
             this.groupBox1.Name = "groupBox1";
@@ -98,14 +98,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Restauración";
             // 
-            // button14
+            // btn_12
             // 
-            this.button14.Location = new System.Drawing.Point(343, 330);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(100, 23);
-            this.button14.TabIndex = 76;
-            this.button14.Text = "Rehabilitar";
-            this.button14.UseVisualStyleBackColor = true;
+            this.btn_12.Location = new System.Drawing.Point(343, 330);
+            this.btn_12.Name = "btn_12";
+            this.btn_12.Size = new System.Drawing.Size(100, 23);
+            this.btn_12.TabIndex = 76;
+            this.btn_12.Text = "Rehabilitar";
+            this.btn_12.UseVisualStyleBackColor = true;
             // 
             // label8
             // 
@@ -116,14 +116,14 @@
             this.label8.TabIndex = 75;
             this.label8.Text = "Rehabilitar la Monitorización de Sensores para Tabletas con Windows 10";
             // 
-            // button16
+            // btn_11
             // 
-            this.button16.Location = new System.Drawing.Point(343, 301);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(100, 23);
-            this.button16.TabIndex = 73;
-            this.button16.Text = "Deshabilitar";
-            this.button16.UseVisualStyleBackColor = true;
+            this.btn_11.Location = new System.Drawing.Point(343, 301);
+            this.btn_11.Name = "btn_11";
+            this.btn_11.Size = new System.Drawing.Size(100, 23);
+            this.btn_11.TabIndex = 73;
+            this.btn_11.Text = "Deshabilitar";
+            this.btn_11.UseVisualStyleBackColor = true;
             // 
             // label9
             // 
@@ -134,14 +134,14 @@
             this.label9.TabIndex = 72;
             this.label9.Text = "Deshabilitar el tema oscuro (Dark Theme)";
             // 
-            // button18
+            // btn_10
             // 
-            this.button18.Location = new System.Drawing.Point(343, 272);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(100, 23);
-            this.button18.TabIndex = 70;
-            this.button18.Text = "Habilitar";
-            this.button18.UseVisualStyleBackColor = true;
+            this.btn_10.Location = new System.Drawing.Point(343, 272);
+            this.btn_10.Name = "btn_10";
+            this.btn_10.Size = new System.Drawing.Size(100, 23);
+            this.btn_10.TabIndex = 70;
+            this.btn_10.Text = "Habilitar";
+            this.btn_10.UseVisualStyleBackColor = true;
             // 
             // label10
             // 
@@ -152,14 +152,14 @@
             this.label10.TabIndex = 69;
             this.label10.Text = "Habilitar Prefetcher + Superfetch";
             // 
-            // button20
+            // btn_9
             // 
-            this.button20.Location = new System.Drawing.Point(343, 243);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(100, 23);
-            this.button20.TabIndex = 67;
-            this.button20.Text = "Habilitar";
-            this.button20.UseVisualStyleBackColor = true;
+            this.btn_9.Location = new System.Drawing.Point(343, 243);
+            this.btn_9.Name = "btn_9";
+            this.btn_9.Size = new System.Drawing.Size(100, 23);
+            this.btn_9.TabIndex = 67;
+            this.btn_9.Text = "Habilitar";
+            this.btn_9.UseVisualStyleBackColor = true;
             // 
             // label11
             // 
@@ -170,14 +170,14 @@
             this.label11.TabIndex = 66;
             this.label11.Text = "Habilitar la hibernacion en el sistema";
             // 
-            // button22
+            // btn_8
             // 
-            this.button22.Location = new System.Drawing.Point(343, 214);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(100, 23);
-            this.button22.TabIndex = 64;
-            this.button22.Text = "Habilitar";
-            this.button22.UseVisualStyleBackColor = true;
+            this.btn_8.Location = new System.Drawing.Point(343, 214);
+            this.btn_8.Name = "btn_8";
+            this.btn_8.Size = new System.Drawing.Size(100, 23);
+            this.btn_8.TabIndex = 64;
+            this.btn_8.Text = "Habilitar";
+            this.btn_8.UseVisualStyleBackColor = true;
             // 
             // label12
             // 
@@ -188,14 +188,14 @@
             this.label12.TabIndex = 63;
             this.label12.Text = "Habilitar Windows Search + Indexing Service";
             // 
-            // button24
+            // btn_7
             // 
-            this.button24.Location = new System.Drawing.Point(343, 185);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(100, 23);
-            this.button24.TabIndex = 61;
-            this.button24.Text = "Habilitar";
-            this.button24.UseVisualStyleBackColor = true;
+            this.btn_7.Location = new System.Drawing.Point(343, 185);
+            this.btn_7.Name = "btn_7";
+            this.btn_7.Size = new System.Drawing.Size(100, 23);
+            this.btn_7.TabIndex = 61;
+            this.btn_7.Text = "Habilitar";
+            this.btn_7.UseVisualStyleBackColor = true;
             // 
             // label13
             // 
@@ -206,14 +206,14 @@
             this.label13.TabIndex = 60;
             this.label13.Text = "Habilitar Shadow Copy (VSS) e Instantaneas de Volumen";
             // 
-            // button12
+            // btn_6
             // 
-            this.button12.Location = new System.Drawing.Point(343, 156);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(100, 23);
-            this.button12.TabIndex = 58;
-            this.button12.Text = "Habilitar";
-            this.button12.UseVisualStyleBackColor = true;
+            this.btn_6.Location = new System.Drawing.Point(343, 156);
+            this.btn_6.Name = "btn_6";
+            this.btn_6.Size = new System.Drawing.Size(100, 23);
+            this.btn_6.TabIndex = 58;
+            this.btn_6.Text = "Habilitar";
+            this.btn_6.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
@@ -224,14 +224,14 @@
             this.label7.TabIndex = 57;
             this.label7.Text = "Habilitar OneDrive";
             // 
-            // button10
+            // btn_5
             // 
-            this.button10.Location = new System.Drawing.Point(343, 127);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(100, 23);
-            this.button10.TabIndex = 55;
-            this.button10.Text = "Habilitar";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btn_5.Location = new System.Drawing.Point(343, 127);
+            this.btn_5.Name = "btn_5";
+            this.btn_5.Size = new System.Drawing.Size(100, 23);
+            this.btn_5.TabIndex = 55;
+            this.btn_5.Text = "Habilitar";
+            this.btn_5.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -242,14 +242,14 @@
             this.label6.TabIndex = 54;
             this.label6.Text = "Habilitar Windows Defender Antivirus";
             // 
-            // button8
+            // btn_4
             // 
-            this.button8.Location = new System.Drawing.Point(343, 98);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(100, 23);
-            this.button8.TabIndex = 52;
-            this.button8.Text = "Restaurar";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btn_4.Location = new System.Drawing.Point(343, 98);
+            this.btn_4.Name = "btn_4";
+            this.btn_4.Size = new System.Drawing.Size(100, 23);
+            this.btn_4.TabIndex = 52;
+            this.btn_4.Text = "Restaurar";
+            this.btn_4.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -260,14 +260,14 @@
             this.label5.TabIndex = 51;
             this.label5.Text = "Restaurar hosts y acceso a servidores de publicidad de Microsoft";
             // 
-            // button6
+            // btn_3
             // 
-            this.button6.Location = new System.Drawing.Point(343, 69);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(100, 23);
-            this.button6.TabIndex = 49;
-            this.button6.Text = "Habilitar";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btn_3.Location = new System.Drawing.Point(343, 69);
+            this.btn_3.Name = "btn_3";
+            this.btn_3.Size = new System.Drawing.Size(100, 23);
+            this.btn_3.TabIndex = 49;
+            this.btn_3.Text = "Habilitar";
+            this.btn_3.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -278,14 +278,14 @@
             this.label4.TabIndex = 48;
             this.label4.Text = "Habilitar tareas programadas que envian datos a Microsoft";
             // 
-            // button4
+            // btn_2
             // 
-            this.button4.Location = new System.Drawing.Point(343, 40);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 23);
-            this.button4.TabIndex = 46;
-            this.button4.Text = "Habilitar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_2.Location = new System.Drawing.Point(343, 40);
+            this.btn_2.Name = "btn_2";
+            this.btn_2.Size = new System.Drawing.Size(100, 23);
+            this.btn_2.TabIndex = 46;
+            this.btn_2.Text = "Habilitar";
+            this.btn_2.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -296,14 +296,14 @@
             this.label3.TabIndex = 45;
             this.label3.Text = "Habilitar servicios DiagTrack, RetailDemo y Dmwappush";
             // 
-            // button1
+            // btn_1
             // 
-            this.button1.Location = new System.Drawing.Point(343, 11);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 43;
-            this.button1.Text = "Habilitar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_1.Location = new System.Drawing.Point(343, 11);
+            this.btn_1.Name = "btn_1";
+            this.btn_1.Size = new System.Drawing.Size(100, 23);
+            this.btn_1.TabIndex = 43;
+            this.btn_1.Text = "Habilitar";
+            this.btn_1.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -347,17 +347,17 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_12;
+        private System.Windows.Forms.Button btn_11;
+        private System.Windows.Forms.Button btn_10;
+        private System.Windows.Forms.Button btn_9;
+        private System.Windows.Forms.Button btn_8;
+        private System.Windows.Forms.Button btn_7;
+        private System.Windows.Forms.Button btn_6;
+        private System.Windows.Forms.Button btn_5;
+        private System.Windows.Forms.Button btn_4;
+        private System.Windows.Forms.Button btn_3;
+        private System.Windows.Forms.Button btn_2;
+        private System.Windows.Forms.Button btn_1;
     }
 }

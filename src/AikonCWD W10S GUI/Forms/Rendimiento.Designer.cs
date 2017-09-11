@@ -30,32 +30,32 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
+            this.btn_9_no = new System.Windows.Forms.Button();
+            this.btn_9_si = new System.Windows.Forms.Button();
             this.label17 = new System.Windows.Forms.Label();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
+            this.btn_8_no = new System.Windows.Forms.Button();
+            this.btn_8_si = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
+            this.btn_7_no = new System.Windows.Forms.Button();
+            this.btn_7_si = new System.Windows.Forms.Button();
             this.label19 = new System.Windows.Forms.Label();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
+            this.btn_6_no = new System.Windows.Forms.Button();
+            this.btn_6_si = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
-            this.button39 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
+            this.btn_5_no = new System.Windows.Forms.Button();
+            this.btn_5_si = new System.Windows.Forms.Button();
             this.label21 = new System.Windows.Forms.Label();
-            this.button41 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
+            this.btn_4_no = new System.Windows.Forms.Button();
+            this.btn_4_si = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
-            this.button43 = new System.Windows.Forms.Button();
-            this.button44 = new System.Windows.Forms.Button();
+            this.btn_3_no = new System.Windows.Forms.Button();
+            this.btn_3_si = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
-            this.button45 = new System.Windows.Forms.Button();
-            this.button46 = new System.Windows.Forms.Button();
+            this.btn_2_no = new System.Windows.Forms.Button();
+            this.btn_2_si = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
-            this.button47 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
+            this.btn_1_no = new System.Windows.Forms.Button();
+            this.btn_1_si = new System.Windows.Forms.Button();
             this.label25 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
@@ -64,32 +64,32 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.button31);
-            this.groupBox1.Controls.Add(this.button32);
+            this.groupBox1.Controls.Add(this.btn_9_no);
+            this.groupBox1.Controls.Add(this.btn_9_si);
             this.groupBox1.Controls.Add(this.label17);
-            this.groupBox1.Controls.Add(this.button33);
-            this.groupBox1.Controls.Add(this.button34);
+            this.groupBox1.Controls.Add(this.btn_8_no);
+            this.groupBox1.Controls.Add(this.btn_8_si);
             this.groupBox1.Controls.Add(this.label18);
-            this.groupBox1.Controls.Add(this.button35);
-            this.groupBox1.Controls.Add(this.button36);
+            this.groupBox1.Controls.Add(this.btn_7_no);
+            this.groupBox1.Controls.Add(this.btn_7_si);
             this.groupBox1.Controls.Add(this.label19);
-            this.groupBox1.Controls.Add(this.button37);
-            this.groupBox1.Controls.Add(this.button38);
+            this.groupBox1.Controls.Add(this.btn_6_no);
+            this.groupBox1.Controls.Add(this.btn_6_si);
             this.groupBox1.Controls.Add(this.label20);
-            this.groupBox1.Controls.Add(this.button39);
-            this.groupBox1.Controls.Add(this.button40);
+            this.groupBox1.Controls.Add(this.btn_5_no);
+            this.groupBox1.Controls.Add(this.btn_5_si);
             this.groupBox1.Controls.Add(this.label21);
-            this.groupBox1.Controls.Add(this.button41);
-            this.groupBox1.Controls.Add(this.button42);
+            this.groupBox1.Controls.Add(this.btn_4_no);
+            this.groupBox1.Controls.Add(this.btn_4_si);
             this.groupBox1.Controls.Add(this.label22);
-            this.groupBox1.Controls.Add(this.button43);
-            this.groupBox1.Controls.Add(this.button44);
+            this.groupBox1.Controls.Add(this.btn_3_no);
+            this.groupBox1.Controls.Add(this.btn_3_si);
             this.groupBox1.Controls.Add(this.label23);
-            this.groupBox1.Controls.Add(this.button45);
-            this.groupBox1.Controls.Add(this.button46);
+            this.groupBox1.Controls.Add(this.btn_2_no);
+            this.groupBox1.Controls.Add(this.btn_2_si);
             this.groupBox1.Controls.Add(this.label24);
-            this.groupBox1.Controls.Add(this.button47);
-            this.groupBox1.Controls.Add(this.button48);
+            this.groupBox1.Controls.Add(this.btn_1_no);
+            this.groupBox1.Controls.Add(this.btn_1_si);
             this.groupBox1.Controls.Add(this.label25);
             this.groupBox1.Location = new System.Drawing.Point(12, 29);
             this.groupBox1.Name = "groupBox1";
@@ -108,23 +108,23 @@
     " trabajo. Deshabilitar el Core Parking obliga a tu CPU a trabajar a su maxima ve" +
     "locidad.    ";
             // 
-            // button31
+            // btn_9_no
             // 
-            this.button31.Location = new System.Drawing.Point(386, 243);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(43, 23);
-            this.button31.TabIndex = 84;
-            this.button31.Text = "No";
-            this.button31.UseVisualStyleBackColor = true;
+            this.btn_9_no.Location = new System.Drawing.Point(386, 243);
+            this.btn_9_no.Name = "btn_9_no";
+            this.btn_9_no.Size = new System.Drawing.Size(43, 23);
+            this.btn_9_no.TabIndex = 84;
+            this.btn_9_no.Text = "No";
+            this.btn_9_no.UseVisualStyleBackColor = true;
             // 
-            // button32
+            // btn_9_si
             // 
-            this.button32.Location = new System.Drawing.Point(337, 243);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(43, 23);
-            this.button32.TabIndex = 83;
-            this.button32.Text = "Si";
-            this.button32.UseVisualStyleBackColor = true;
+            this.btn_9_si.Location = new System.Drawing.Point(337, 243);
+            this.btn_9_si.Name = "btn_9_si";
+            this.btn_9_si.Size = new System.Drawing.Size(43, 23);
+            this.btn_9_si.TabIndex = 83;
+            this.btn_9_si.Text = "Si";
+            this.btn_9_si.UseVisualStyleBackColor = true;
             // 
             // label17
             // 
@@ -135,23 +135,23 @@
             this.label17.TabIndex = 82;
             this.label17.Text = "Modificar la configuracion de \'CPU Core Parking\'?";
             // 
-            // button33
+            // btn_8_no
             // 
-            this.button33.Location = new System.Drawing.Point(386, 214);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(43, 23);
-            this.button33.TabIndex = 81;
-            this.button33.Text = "No";
-            this.button33.UseVisualStyleBackColor = true;
+            this.btn_8_no.Location = new System.Drawing.Point(386, 214);
+            this.btn_8_no.Name = "btn_8_no";
+            this.btn_8_no.Size = new System.Drawing.Size(43, 23);
+            this.btn_8_no.TabIndex = 81;
+            this.btn_8_no.Text = "No";
+            this.btn_8_no.UseVisualStyleBackColor = true;
             // 
-            // button34
+            // btn_8_si
             // 
-            this.button34.Location = new System.Drawing.Point(337, 214);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(43, 23);
-            this.button34.TabIndex = 80;
-            this.button34.Text = "Si";
-            this.button34.UseVisualStyleBackColor = true;
+            this.btn_8_si.Location = new System.Drawing.Point(337, 214);
+            this.btn_8_si.Name = "btn_8_si";
+            this.btn_8_si.Size = new System.Drawing.Size(43, 23);
+            this.btn_8_si.TabIndex = 80;
+            this.btn_8_si.Text = "Si";
+            this.btn_8_si.UseVisualStyleBackColor = true;
             // 
             // label18
             // 
@@ -162,23 +162,23 @@
             this.label18.TabIndex = 79;
             this.label18.Text = "Habilitar el 100% del ancho de banda para el sistema?";
             // 
-            // button35
+            // btn_7_no
             // 
-            this.button35.Location = new System.Drawing.Point(386, 185);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(43, 23);
-            this.button35.TabIndex = 78;
-            this.button35.Text = "No";
-            this.button35.UseVisualStyleBackColor = true;
+            this.btn_7_no.Location = new System.Drawing.Point(386, 185);
+            this.btn_7_no.Name = "btn_7_no";
+            this.btn_7_no.Size = new System.Drawing.Size(43, 23);
+            this.btn_7_no.TabIndex = 78;
+            this.btn_7_no.Text = "No";
+            this.btn_7_no.UseVisualStyleBackColor = true;
             // 
-            // button36
+            // btn_7_si
             // 
-            this.button36.Location = new System.Drawing.Point(337, 185);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(43, 23);
-            this.button36.TabIndex = 77;
-            this.button36.Text = "Si";
-            this.button36.UseVisualStyleBackColor = true;
+            this.btn_7_si.Location = new System.Drawing.Point(337, 185);
+            this.btn_7_si.Name = "btn_7_si";
+            this.btn_7_si.Size = new System.Drawing.Size(43, 23);
+            this.btn_7_si.TabIndex = 77;
+            this.btn_7_si.Text = "Si";
+            this.btn_7_si.UseVisualStyleBackColor = true;
             // 
             // label19
             // 
@@ -189,23 +189,23 @@
             this.label19.TabIndex = 76;
             this.label19.Text = "Cambiar la configuracion de la compresion de ficheros? ";
             // 
-            // button37
+            // btn_6_no
             // 
-            this.button37.Location = new System.Drawing.Point(386, 156);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(43, 23);
-            this.button37.TabIndex = 75;
-            this.button37.Text = "No";
-            this.button37.UseVisualStyleBackColor = true;
+            this.btn_6_no.Location = new System.Drawing.Point(386, 156);
+            this.btn_6_no.Name = "btn_6_no";
+            this.btn_6_no.Size = new System.Drawing.Size(43, 23);
+            this.btn_6_no.TabIndex = 75;
+            this.btn_6_no.Text = "No";
+            this.btn_6_no.UseVisualStyleBackColor = true;
             // 
-            // button38
+            // btn_6_si
             // 
-            this.button38.Location = new System.Drawing.Point(337, 156);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(43, 23);
-            this.button38.TabIndex = 74;
-            this.button38.Text = "Si";
-            this.button38.UseVisualStyleBackColor = true;
+            this.btn_6_si.Location = new System.Drawing.Point(337, 156);
+            this.btn_6_si.Name = "btn_6_si";
+            this.btn_6_si.Size = new System.Drawing.Size(43, 23);
+            this.btn_6_si.TabIndex = 74;
+            this.btn_6_si.Text = "Si";
+            this.btn_6_si.UseVisualStyleBackColor = true;
             // 
             // label20
             // 
@@ -216,23 +216,23 @@
             this.label20.TabIndex = 73;
             this.label20.Text = "Instalar/Desinstalar caracteristicas adicionales de Windows";
             // 
-            // button39
+            // btn_5_no
             // 
-            this.button39.Location = new System.Drawing.Point(386, 127);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(43, 23);
-            this.button39.TabIndex = 72;
-            this.button39.Text = "No";
-            this.button39.UseVisualStyleBackColor = true;
+            this.btn_5_no.Location = new System.Drawing.Point(386, 127);
+            this.btn_5_no.Name = "btn_5_no";
+            this.btn_5_no.Size = new System.Drawing.Size(43, 23);
+            this.btn_5_no.TabIndex = 72;
+            this.btn_5_no.Text = "No";
+            this.btn_5_no.UseVisualStyleBackColor = true;
             // 
-            // button40
+            // btn_5_si
             // 
-            this.button40.Location = new System.Drawing.Point(337, 127);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(43, 23);
-            this.button40.TabIndex = 71;
-            this.button40.Text = "Si";
-            this.button40.UseVisualStyleBackColor = true;
+            this.btn_5_si.Location = new System.Drawing.Point(337, 127);
+            this.btn_5_si.Name = "btn_5_si";
+            this.btn_5_si.Size = new System.Drawing.Size(43, 23);
+            this.btn_5_si.TabIndex = 71;
+            this.btn_5_si.Text = "Si";
+            this.btn_5_si.UseVisualStyleBackColor = true;
             // 
             // label21
             // 
@@ -243,23 +243,23 @@
             this.label21.TabIndex = 70;
             this.label21.Text = "Ejecutar limpiador de Windows. Libera espacio y borrar Windows.old";
             // 
-            // button41
+            // btn_4_no
             // 
-            this.button41.Location = new System.Drawing.Point(386, 98);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(43, 23);
-            this.button41.TabIndex = 69;
-            this.button41.Text = "No";
-            this.button41.UseVisualStyleBackColor = true;
+            this.btn_4_no.Location = new System.Drawing.Point(386, 98);
+            this.btn_4_no.Name = "btn_4_no";
+            this.btn_4_no.Size = new System.Drawing.Size(43, 23);
+            this.btn_4_no.TabIndex = 69;
+            this.btn_4_no.Text = "No";
+            this.btn_4_no.UseVisualStyleBackColor = true;
             // 
-            // button42
+            // btn_4_si
             // 
-            this.button42.Location = new System.Drawing.Point(337, 98);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(43, 23);
-            this.button42.TabIndex = 68;
-            this.button42.Text = "Si";
-            this.button42.UseVisualStyleBackColor = true;
+            this.btn_4_si.Location = new System.Drawing.Point(337, 98);
+            this.btn_4_si.Name = "btn_4_si";
+            this.btn_4_si.Size = new System.Drawing.Size(43, 23);
+            this.btn_4_si.TabIndex = 68;
+            this.btn_4_si.Text = "Si";
+            this.btn_4_si.UseVisualStyleBackColor = true;
             // 
             // label22
             // 
@@ -270,23 +270,23 @@
             this.label22.TabIndex = 67;
             this.label22.Text = "Deshabilitar servicios Wifi?";
             // 
-            // button43
+            // btn_3_no
             // 
-            this.button43.Location = new System.Drawing.Point(386, 69);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(43, 23);
-            this.button43.TabIndex = 66;
-            this.button43.Text = "No";
-            this.button43.UseVisualStyleBackColor = true;
+            this.btn_3_no.Location = new System.Drawing.Point(386, 69);
+            this.btn_3_no.Name = "btn_3_no";
+            this.btn_3_no.Size = new System.Drawing.Size(43, 23);
+            this.btn_3_no.TabIndex = 66;
+            this.btn_3_no.Text = "No";
+            this.btn_3_no.UseVisualStyleBackColor = true;
             // 
-            // button44
+            // btn_3_si
             // 
-            this.button44.Location = new System.Drawing.Point(337, 69);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(43, 23);
-            this.button44.TabIndex = 65;
-            this.button44.Text = "Si";
-            this.button44.UseVisualStyleBackColor = true;
+            this.btn_3_si.Location = new System.Drawing.Point(337, 69);
+            this.btn_3_si.Name = "btn_3_si";
+            this.btn_3_si.Size = new System.Drawing.Size(43, 23);
+            this.btn_3_si.TabIndex = 65;
+            this.btn_3_si.Text = "Si";
+            this.btn_3_si.UseVisualStyleBackColor = true;
             // 
             // label23
             // 
@@ -297,23 +297,23 @@
             this.label23.TabIndex = 64;
             this.label23.Text = "Deshabilitar servicios: BitLocker, Cifrado y OfflineFiles?";
             // 
-            // button45
+            // btn_2_no
             // 
-            this.button45.Location = new System.Drawing.Point(386, 40);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(43, 23);
-            this.button45.TabIndex = 63;
-            this.button45.Text = "No";
-            this.button45.UseVisualStyleBackColor = true;
+            this.btn_2_no.Location = new System.Drawing.Point(386, 40);
+            this.btn_2_no.Name = "btn_2_no";
+            this.btn_2_no.Size = new System.Drawing.Size(43, 23);
+            this.btn_2_no.TabIndex = 63;
+            this.btn_2_no.Text = "No";
+            this.btn_2_no.UseVisualStyleBackColor = true;
             // 
-            // button46
+            // btn_2_si
             // 
-            this.button46.Location = new System.Drawing.Point(337, 40);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(43, 23);
-            this.button46.TabIndex = 62;
-            this.button46.Text = "Si";
-            this.button46.UseVisualStyleBackColor = true;
+            this.btn_2_si.Location = new System.Drawing.Point(337, 40);
+            this.btn_2_si.Name = "btn_2_si";
+            this.btn_2_si.Size = new System.Drawing.Size(43, 23);
+            this.btn_2_si.TabIndex = 62;
+            this.btn_2_si.Text = "Si";
+            this.btn_2_si.UseVisualStyleBackColor = true;
             // 
             // label24
             // 
@@ -324,23 +324,23 @@
             this.label24.TabIndex = 61;
             this.label24.Text = "Acelerar el cierre de aplicaciones y servicios?";
             // 
-            // button47
+            // btn_1_no
             // 
-            this.button47.Location = new System.Drawing.Point(386, 11);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(43, 23);
-            this.button47.TabIndex = 60;
-            this.button47.Text = "No";
-            this.button47.UseVisualStyleBackColor = true;
+            this.btn_1_no.Location = new System.Drawing.Point(386, 11);
+            this.btn_1_no.Name = "btn_1_no";
+            this.btn_1_no.Size = new System.Drawing.Size(43, 23);
+            this.btn_1_no.TabIndex = 60;
+            this.btn_1_no.Text = "No";
+            this.btn_1_no.UseVisualStyleBackColor = true;
             // 
-            // button48
+            // btn_1_si
             // 
-            this.button48.Location = new System.Drawing.Point(337, 11);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(43, 23);
-            this.button48.TabIndex = 59;
-            this.button48.Text = "Si";
-            this.button48.UseVisualStyleBackColor = true;
+            this.btn_1_si.Location = new System.Drawing.Point(337, 11);
+            this.btn_1_si.Name = "btn_1_si";
+            this.btn_1_si.Size = new System.Drawing.Size(43, 23);
+            this.btn_1_si.TabIndex = 59;
+            this.btn_1_si.Text = "Si";
+            this.btn_1_si.UseVisualStyleBackColor = true;
             // 
             // label25
             // 
@@ -380,32 +380,32 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button32;
+        private System.Windows.Forms.Button btn_9_no;
+        private System.Windows.Forms.Button btn_9_si;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button34;
+        private System.Windows.Forms.Button btn_8_no;
+        private System.Windows.Forms.Button btn_8_si;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Button button35;
-        private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Button btn_7_no;
+        private System.Windows.Forms.Button btn_7_si;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Button button37;
-        private System.Windows.Forms.Button button38;
+        private System.Windows.Forms.Button btn_6_no;
+        private System.Windows.Forms.Button btn_6_si;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Button button39;
-        private System.Windows.Forms.Button button40;
+        private System.Windows.Forms.Button btn_5_no;
+        private System.Windows.Forms.Button btn_5_si;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Button button41;
-        private System.Windows.Forms.Button button42;
+        private System.Windows.Forms.Button btn_4_no;
+        private System.Windows.Forms.Button btn_4_si;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Button button43;
-        private System.Windows.Forms.Button button44;
+        private System.Windows.Forms.Button btn_3_no;
+        private System.Windows.Forms.Button btn_3_si;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Button button45;
-        private System.Windows.Forms.Button button46;
+        private System.Windows.Forms.Button btn_2_no;
+        private System.Windows.Forms.Button btn_2_si;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Button button47;
-        private System.Windows.Forms.Button button48;
+        private System.Windows.Forms.Button btn_1_no;
+        private System.Windows.Forms.Button btn_1_si;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;

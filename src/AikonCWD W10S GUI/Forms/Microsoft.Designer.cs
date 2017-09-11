@@ -30,41 +30,41 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_spyware_solucionar = new System.Windows.Forms.Button();
+            this.btn_spyware_habilitar = new System.Windows.Forms.Button();
+            this.btn_spyware_deshabilitar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn_onedrive_desinstalar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btn_onedrive_habilitar = new System.Windows.Forms.Button();
+            this.btn_onedrive_deshabilitar = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btn_cortana_reinstalar = new System.Windows.Forms.Button();
+            this.btn_cortana_desinstalar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btn_cortana_habilitar = new System.Windows.Forms.Button();
+            this.btn_cortana_deshabilitar = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.btn_defender_habilitar = new System.Windows.Forms.Button();
+            this.btn_defender_deshabilitar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.button13 = new System.Windows.Forms.Button();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.btn_updater_realizar = new System.Windows.Forms.Button();
+            this.checkBox_driver = new System.Windows.Forms.CheckBox();
+            this.checkBox_app = new System.Windows.Forms.CheckBox();
+            this.checkBox_sharing = new System.Windows.Forms.CheckBox();
+            this.checkBox_autoupdate = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.btn_licencia_cdkey = new System.Windows.Forms.Button();
+            this.btn_licencia_activar = new System.Windows.Forms.Button();
+            this.btn_licencia_activacion = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.button19 = new System.Windows.Forms.Button();
+            this.btn_atajos_ver = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -77,9 +77,9 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btn_spyware_solucionar);
+            this.groupBox1.Controls.Add(this.btn_spyware_habilitar);
+            this.groupBox1.Controls.Add(this.btn_spyware_deshabilitar);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
@@ -97,32 +97,32 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Arreglar problemas con Skype";
             // 
-            // button3
+            // btn_spyware_solucionar
             // 
-            this.button3.Location = new System.Drawing.Point(220, 86);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(83, 23);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Solucionar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_spyware_solucionar.Location = new System.Drawing.Point(220, 86);
+            this.btn_spyware_solucionar.Name = "btn_spyware_solucionar";
+            this.btn_spyware_solucionar.Size = new System.Drawing.Size(83, 23);
+            this.btn_spyware_solucionar.TabIndex = 4;
+            this.btn_spyware_solucionar.Text = "Solucionar";
+            this.btn_spyware_solucionar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_spyware_habilitar
             // 
-            this.button2.Location = new System.Drawing.Point(189, 54);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(114, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Habilitar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_spyware_habilitar.Location = new System.Drawing.Point(189, 54);
+            this.btn_spyware_habilitar.Name = "btn_spyware_habilitar";
+            this.btn_spyware_habilitar.Size = new System.Drawing.Size(114, 23);
+            this.btn_spyware_habilitar.TabIndex = 3;
+            this.btn_spyware_habilitar.Text = "Habilitar";
+            this.btn_spyware_habilitar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btn_spyware_deshabilitar
             // 
-            this.button1.Location = new System.Drawing.Point(69, 54);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Deshabilitar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_spyware_deshabilitar.Location = new System.Drawing.Point(69, 54);
+            this.btn_spyware_deshabilitar.Name = "btn_spyware_deshabilitar";
+            this.btn_spyware_deshabilitar.Size = new System.Drawing.Size(114, 23);
+            this.btn_spyware_deshabilitar.TabIndex = 2;
+            this.btn_spyware_deshabilitar.Text = "Deshabilitar";
+            this.btn_spyware_deshabilitar.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -135,10 +135,10 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button4);
+            this.groupBox2.Controls.Add(this.btn_onedrive_desinstalar);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.button5);
-            this.groupBox2.Controls.Add(this.button6);
+            this.groupBox2.Controls.Add(this.btn_onedrive_habilitar);
+            this.groupBox2.Controls.Add(this.btn_onedrive_deshabilitar);
             this.groupBox2.Location = new System.Drawing.Point(12, 141);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(383, 93);
@@ -146,14 +146,14 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Microsoft OneDrive";
             // 
-            // button4
+            // btn_onedrive_desinstalar
             // 
-            this.button4.Location = new System.Drawing.Point(249, 54);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(114, 23);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Desinstalar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btn_onedrive_desinstalar.Location = new System.Drawing.Point(249, 54);
+            this.btn_onedrive_desinstalar.Name = "btn_onedrive_desinstalar";
+            this.btn_onedrive_desinstalar.Size = new System.Drawing.Size(114, 23);
+            this.btn_onedrive_desinstalar.TabIndex = 7;
+            this.btn_onedrive_desinstalar.Text = "Desinstalar";
+            this.btn_onedrive_desinstalar.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -164,31 +164,31 @@
             this.label1.Text = "Si no utilizas el servicio de OneDrive recomiendo deshabilitarlo. Si desinstalas " +
     "OneDrive recuerda que la opción no es reversible";
             // 
-            // button5
+            // btn_onedrive_habilitar
             // 
-            this.button5.Location = new System.Drawing.Point(129, 54);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(114, 23);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Habilitar";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btn_onedrive_habilitar.Location = new System.Drawing.Point(129, 54);
+            this.btn_onedrive_habilitar.Name = "btn_onedrive_habilitar";
+            this.btn_onedrive_habilitar.Size = new System.Drawing.Size(114, 23);
+            this.btn_onedrive_habilitar.TabIndex = 6;
+            this.btn_onedrive_habilitar.Text = "Habilitar";
+            this.btn_onedrive_habilitar.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btn_onedrive_deshabilitar
             // 
-            this.button6.Location = new System.Drawing.Point(9, 54);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(114, 23);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Deshabilitar";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btn_onedrive_deshabilitar.Location = new System.Drawing.Point(9, 54);
+            this.btn_onedrive_deshabilitar.Name = "btn_onedrive_deshabilitar";
+            this.btn_onedrive_deshabilitar.Size = new System.Drawing.Size(114, 23);
+            this.btn_onedrive_deshabilitar.TabIndex = 5;
+            this.btn_onedrive_deshabilitar.Text = "Deshabilitar";
+            this.btn_onedrive_deshabilitar.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.button10);
-            this.groupBox3.Controls.Add(this.button7);
+            this.groupBox3.Controls.Add(this.btn_cortana_reinstalar);
+            this.groupBox3.Controls.Add(this.btn_cortana_desinstalar);
             this.groupBox3.Controls.Add(this.label2);
-            this.groupBox3.Controls.Add(this.button8);
-            this.groupBox3.Controls.Add(this.button9);
+            this.groupBox3.Controls.Add(this.btn_cortana_habilitar);
+            this.groupBox3.Controls.Add(this.btn_cortana_deshabilitar);
             this.groupBox3.Location = new System.Drawing.Point(12, 240);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(383, 91);
@@ -196,23 +196,23 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Microsoft Cortana";
             // 
-            // button10
+            // btn_cortana_reinstalar
             // 
-            this.button10.Location = new System.Drawing.Point(279, 54);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(84, 23);
-            this.button10.TabIndex = 11;
-            this.button10.Text = "Reinstalar";
-            this.button10.UseVisualStyleBackColor = true;
+            this.btn_cortana_reinstalar.Location = new System.Drawing.Point(279, 54);
+            this.btn_cortana_reinstalar.Name = "btn_cortana_reinstalar";
+            this.btn_cortana_reinstalar.Size = new System.Drawing.Size(84, 23);
+            this.btn_cortana_reinstalar.TabIndex = 11;
+            this.btn_cortana_reinstalar.Text = "Reinstalar";
+            this.btn_cortana_reinstalar.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btn_cortana_desinstalar
             // 
-            this.button7.Location = new System.Drawing.Point(189, 54);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(84, 23);
-            this.button7.TabIndex = 10;
-            this.button7.Text = "Desinstalar";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btn_cortana_desinstalar.Location = new System.Drawing.Point(189, 54);
+            this.btn_cortana_desinstalar.Name = "btn_cortana_desinstalar";
+            this.btn_cortana_desinstalar.Size = new System.Drawing.Size(84, 23);
+            this.btn_cortana_desinstalar.TabIndex = 10;
+            this.btn_cortana_desinstalar.Text = "Desinstalar";
+            this.btn_cortana_desinstalar.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -223,28 +223,28 @@
             this.label2.Text = "¿Utilizas Cortana como asistente personal? No? Pues ahorra algo de espacio y recu" +
     "rsos deshabilitando o desinstalando Cortana.";
             // 
-            // button8
+            // btn_cortana_habilitar
             // 
-            this.button8.Location = new System.Drawing.Point(99, 54);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(84, 23);
-            this.button8.TabIndex = 9;
-            this.button8.Text = "Habilitar";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btn_cortana_habilitar.Location = new System.Drawing.Point(99, 54);
+            this.btn_cortana_habilitar.Name = "btn_cortana_habilitar";
+            this.btn_cortana_habilitar.Size = new System.Drawing.Size(84, 23);
+            this.btn_cortana_habilitar.TabIndex = 9;
+            this.btn_cortana_habilitar.Text = "Habilitar";
+            this.btn_cortana_habilitar.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btn_cortana_deshabilitar
             // 
-            this.button9.Location = new System.Drawing.Point(9, 54);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(84, 23);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "Deshabilitar";
-            this.button9.UseVisualStyleBackColor = true;
+            this.btn_cortana_deshabilitar.Location = new System.Drawing.Point(9, 54);
+            this.btn_cortana_deshabilitar.Name = "btn_cortana_deshabilitar";
+            this.btn_cortana_deshabilitar.Size = new System.Drawing.Size(84, 23);
+            this.btn_cortana_deshabilitar.TabIndex = 8;
+            this.btn_cortana_deshabilitar.Text = "Deshabilitar";
+            this.btn_cortana_deshabilitar.UseVisualStyleBackColor = true;
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.button11);
-            this.groupBox4.Controls.Add(this.button12);
+            this.groupBox4.Controls.Add(this.btn_defender_habilitar);
+            this.groupBox4.Controls.Add(this.btn_defender_deshabilitar);
             this.groupBox4.Controls.Add(this.label3);
             this.groupBox4.Location = new System.Drawing.Point(12, 337);
             this.groupBox4.Name = "groupBox4";
@@ -253,23 +253,23 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Windows Defender";
             // 
-            // button11
+            // btn_defender_habilitar
             // 
-            this.button11.Location = new System.Drawing.Point(189, 54);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(114, 23);
-            this.button11.TabIndex = 7;
-            this.button11.Text = "Habilitar";
-            this.button11.UseVisualStyleBackColor = true;
+            this.btn_defender_habilitar.Location = new System.Drawing.Point(189, 54);
+            this.btn_defender_habilitar.Name = "btn_defender_habilitar";
+            this.btn_defender_habilitar.Size = new System.Drawing.Size(114, 23);
+            this.btn_defender_habilitar.TabIndex = 7;
+            this.btn_defender_habilitar.Text = "Habilitar";
+            this.btn_defender_habilitar.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // btn_defender_deshabilitar
             // 
-            this.button12.Location = new System.Drawing.Point(69, 54);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(114, 23);
-            this.button12.TabIndex = 6;
-            this.button12.Text = "Deshabilitar";
-            this.button12.UseVisualStyleBackColor = true;
+            this.btn_defender_deshabilitar.Location = new System.Drawing.Point(69, 54);
+            this.btn_defender_deshabilitar.Name = "btn_defender_deshabilitar";
+            this.btn_defender_deshabilitar.Size = new System.Drawing.Size(114, 23);
+            this.btn_defender_deshabilitar.TabIndex = 6;
+            this.btn_defender_deshabilitar.Text = "Deshabilitar";
+            this.btn_defender_deshabilitar.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -282,11 +282,11 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.button13);
-            this.groupBox5.Controls.Add(this.checkBox4);
-            this.groupBox5.Controls.Add(this.checkBox3);
-            this.groupBox5.Controls.Add(this.checkBox2);
-            this.groupBox5.Controls.Add(this.checkBox1);
+            this.groupBox5.Controls.Add(this.btn_updater_realizar);
+            this.groupBox5.Controls.Add(this.checkBox_driver);
+            this.groupBox5.Controls.Add(this.checkBox_app);
+            this.groupBox5.Controls.Add(this.checkBox_sharing);
+            this.groupBox5.Controls.Add(this.checkBox_autoupdate);
             this.groupBox5.Controls.Add(this.label5);
             this.groupBox5.Location = new System.Drawing.Point(12, 432);
             this.groupBox5.Name = "groupBox5";
@@ -295,54 +295,54 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Windows Updater";
             // 
-            // button13
+            // btn_updater_realizar
             // 
-            this.button13.Location = new System.Drawing.Point(129, 135);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(124, 23);
-            this.button13.TabIndex = 5;
-            this.button13.Text = "Realizar operaciones";
-            this.button13.UseVisualStyleBackColor = true;
+            this.btn_updater_realizar.Location = new System.Drawing.Point(129, 135);
+            this.btn_updater_realizar.Name = "btn_updater_realizar";
+            this.btn_updater_realizar.Size = new System.Drawing.Size(124, 23);
+            this.btn_updater_realizar.TabIndex = 5;
+            this.btn_updater_realizar.Text = "Realizar operaciones";
+            this.btn_updater_realizar.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // checkBox_driver
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(9, 112);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(207, 17);
-            this.checkBox4.TabIndex = 4;
-            this.checkBox4.Text = "Deshabilitar \'Windows Update Driver\'?";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox_driver.AutoSize = true;
+            this.checkBox_driver.Location = new System.Drawing.Point(9, 112);
+            this.checkBox_driver.Name = "checkBox_driver";
+            this.checkBox_driver.Size = new System.Drawing.Size(207, 17);
+            this.checkBox_driver.TabIndex = 4;
+            this.checkBox_driver.Text = "Deshabilitar \'Windows Update Driver\'?";
+            this.checkBox_driver.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // checkBox_app
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(9, 89);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(198, 17);
-            this.checkBox3.TabIndex = 3;
-            this.checkBox3.Text = "Deshabilitar \'Windows Update App\'?";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox_app.AutoSize = true;
+            this.checkBox_app.Location = new System.Drawing.Point(9, 89);
+            this.checkBox_app.Name = "checkBox_app";
+            this.checkBox_app.Size = new System.Drawing.Size(198, 17);
+            this.checkBox_app.TabIndex = 3;
+            this.checkBox_app.Text = "Deshabilitar \'Windows Update App\'?";
+            this.checkBox_app.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // checkBox_sharing
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(9, 66);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(215, 17);
-            this.checkBox2.TabIndex = 2;
-            this.checkBox2.Text = "Deshabilitar \'Windows Update Sharing\'?";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox_sharing.AutoSize = true;
+            this.checkBox_sharing.Location = new System.Drawing.Point(9, 66);
+            this.checkBox_sharing.Name = "checkBox_sharing";
+            this.checkBox_sharing.Size = new System.Drawing.Size(215, 17);
+            this.checkBox_sharing.TabIndex = 2;
+            this.checkBox_sharing.Text = "Deshabilitar \'Windows Update Sharing\'?";
+            this.checkBox_sharing.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // checkBox_autoupdate
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(9, 43);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(204, 17);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "Deshabilitar \'Windows Auto Update\'? ";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox_autoupdate.AutoSize = true;
+            this.checkBox_autoupdate.Location = new System.Drawing.Point(9, 43);
+            this.checkBox_autoupdate.Name = "checkBox_autoupdate";
+            this.checkBox_autoupdate.Size = new System.Drawing.Size(204, 17);
+            this.checkBox_autoupdate.TabIndex = 1;
+            this.checkBox_autoupdate.Text = "Deshabilitar \'Windows Auto Update\'? ";
+            this.checkBox_autoupdate.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -357,9 +357,9 @@
             this.groupBox6.Controls.Add(this.label9);
             this.groupBox6.Controls.Add(this.label8);
             this.groupBox6.Controls.Add(this.label7);
-            this.groupBox6.Controls.Add(this.button14);
-            this.groupBox6.Controls.Add(this.button15);
-            this.groupBox6.Controls.Add(this.button16);
+            this.groupBox6.Controls.Add(this.btn_licencia_cdkey);
+            this.groupBox6.Controls.Add(this.btn_licencia_activar);
+            this.groupBox6.Controls.Add(this.btn_licencia_activacion);
             this.groupBox6.Location = new System.Drawing.Point(12, 608);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(383, 99);
@@ -394,36 +394,36 @@
             this.label7.TabIndex = 8;
             this.label7.Text = "Mostrar estado de la activacion de Windows 10";
             // 
-            // button14
+            // btn_licencia_cdkey
             // 
-            this.button14.Location = new System.Drawing.Point(279, 40);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(84, 23);
-            this.button14.TabIndex = 7;
-            this.button14.Text = "Ver";
-            this.button14.UseVisualStyleBackColor = true;
+            this.btn_licencia_cdkey.Location = new System.Drawing.Point(279, 40);
+            this.btn_licencia_cdkey.Name = "btn_licencia_cdkey";
+            this.btn_licencia_cdkey.Size = new System.Drawing.Size(84, 23);
+            this.btn_licencia_cdkey.TabIndex = 7;
+            this.btn_licencia_cdkey.Text = "Ver";
+            this.btn_licencia_cdkey.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // btn_licencia_activar
             // 
-            this.button15.Location = new System.Drawing.Point(279, 69);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(84, 23);
-            this.button15.TabIndex = 6;
-            this.button15.Text = "Acceder";
-            this.button15.UseVisualStyleBackColor = true;
+            this.btn_licencia_activar.Location = new System.Drawing.Point(279, 69);
+            this.btn_licencia_activar.Name = "btn_licencia_activar";
+            this.btn_licencia_activar.Size = new System.Drawing.Size(84, 23);
+            this.btn_licencia_activar.TabIndex = 6;
+            this.btn_licencia_activar.Text = "Acceder";
+            this.btn_licencia_activar.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // btn_licencia_activacion
             // 
-            this.button16.Location = new System.Drawing.Point(279, 11);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(84, 23);
-            this.button16.TabIndex = 5;
-            this.button16.Text = "Ver";
-            this.button16.UseVisualStyleBackColor = true;
+            this.btn_licencia_activacion.Location = new System.Drawing.Point(279, 11);
+            this.btn_licencia_activacion.Name = "btn_licencia_activacion";
+            this.btn_licencia_activacion.Size = new System.Drawing.Size(84, 23);
+            this.btn_licencia_activacion.TabIndex = 5;
+            this.btn_licencia_activacion.Text = "Ver";
+            this.btn_licencia_activacion.UseVisualStyleBackColor = true;
             // 
             // groupBox7
             // 
-            this.groupBox7.Controls.Add(this.button19);
+            this.groupBox7.Controls.Add(this.btn_atajos_ver);
             this.groupBox7.Location = new System.Drawing.Point(12, 713);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(383, 55);
@@ -431,14 +431,14 @@
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Atajos de teclado";
             // 
-            // button19
+            // btn_atajos_ver
             // 
-            this.button19.Location = new System.Drawing.Point(90, 19);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(204, 23);
-            this.button19.TabIndex = 5;
-            this.button19.Text = "Ver atajos de teclado para Windows 10";
-            this.button19.UseVisualStyleBackColor = true;
+            this.btn_atajos_ver.Location = new System.Drawing.Point(90, 19);
+            this.btn_atajos_ver.Name = "btn_atajos_ver";
+            this.btn_atajos_ver.Size = new System.Drawing.Size(204, 23);
+            this.btn_atajos_ver.TabIndex = 5;
+            this.btn_atajos_ver.Text = "Ver atajos de teclado para Windows 10";
+            this.btn_atajos_ver.UseVisualStyleBackColor = true;
             // 
             // Microsoft
             // 
@@ -474,40 +474,40 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_spyware_solucionar;
+        private System.Windows.Forms.Button btn_spyware_habilitar;
+        private System.Windows.Forms.Button btn_spyware_deshabilitar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btn_onedrive_desinstalar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btn_onedrive_habilitar;
+        private System.Windows.Forms.Button btn_onedrive_deshabilitar;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btn_cortana_reinstalar;
+        private System.Windows.Forms.Button btn_cortana_desinstalar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btn_cortana_habilitar;
+        private System.Windows.Forms.Button btn_cortana_deshabilitar;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button btn_defender_habilitar;
+        private System.Windows.Forms.Button btn_defender_deshabilitar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button btn_updater_realizar;
+        private System.Windows.Forms.CheckBox checkBox_driver;
+        private System.Windows.Forms.CheckBox checkBox_app;
+        private System.Windows.Forms.CheckBox checkBox_sharing;
+        private System.Windows.Forms.CheckBox checkBox_autoupdate;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button btn_licencia_cdkey;
+        private System.Windows.Forms.Button btn_licencia_activar;
+        private System.Windows.Forms.Button btn_licencia_activacion;
         private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button btn_atajos_ver;
     }
 }

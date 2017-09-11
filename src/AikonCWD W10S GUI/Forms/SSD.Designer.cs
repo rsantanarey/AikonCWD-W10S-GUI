@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SSD));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_continuar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -48,7 +48,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btn_continuar);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label16);
@@ -66,14 +66,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "SSD tweaks";
             // 
-            // button1
+            // btn_continuar
             // 
-            this.button1.Location = new System.Drawing.Point(224, 206);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 87;
-            this.button1.Text = "Continuar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_continuar.Location = new System.Drawing.Point(224, 206);
+            this.btn_continuar.Name = "btn_continuar";
+            this.btn_continuar.Size = new System.Drawing.Size(75, 23);
+            this.btn_continuar.TabIndex = 87;
+            this.btn_continuar.Text = "Continuar";
+            this.btn_continuar.UseVisualStyleBackColor = true;
+            this.btn_continuar.Click += new System.EventHandler(this.btn_continuar_Click);
             // 
             // label3
             // 
@@ -204,7 +205,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_continuar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label16;

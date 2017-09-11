@@ -1,0 +1,15 @@
+D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\bin\Debug\AikonCWD W10S GUI.exe.config
+D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\bin\Debug\AikonCWD W10S GUI.exe
+D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\bin\Debug\AikonCWD W10S GUI.pdb
+D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD W10S GUI.csprojResolveAssemblyReference.cache
+D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Form1.resources
+D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Forms.MetroApps.resources
+D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Forms.Microsoft.resources
+D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Forms.Rendimiento.resources
+D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Forms.Restauracion.resources
+D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Forms.Sistema.resources
+D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Forms.SSD.resources
+D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Properties.Resources.resources
+D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD W10S GUI.csproj.GenerateResource.Cache
+D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD W10S GUI.exe
+D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD W10S GUI.pdb

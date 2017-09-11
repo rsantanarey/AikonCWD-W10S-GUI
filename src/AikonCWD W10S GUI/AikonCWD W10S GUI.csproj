@@ -51,8 +51,65 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\MetroApps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MetroApps.Designer.cs">
+      <DependentUpon>MetroApps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Microsoft.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Microsoft.Designer.cs">
+      <DependentUpon>Microsoft.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rendimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rendimiento.Designer.cs">
+      <DependentUpon>Rendimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Restauracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Restauracion.Designer.cs">
+      <DependentUpon>Restauracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sistema.Designer.cs">
+      <DependentUpon>Sistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SSD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SSD.Designer.cs">
+      <DependentUpon>SSD.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MetroApps.resx">
+      <DependentUpon>MetroApps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Microsoft.resx">
+      <DependentUpon>Microsoft.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Rendimiento.resx">
+      <DependentUpon>Rendimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Restauracion.resx">
+      <DependentUpon>Restauracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sistema.resx">
+      <DependentUpon>Sistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SSD.resx">
+      <DependentUpon>SSD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

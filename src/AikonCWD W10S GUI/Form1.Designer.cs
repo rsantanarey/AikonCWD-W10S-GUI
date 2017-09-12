@@ -63,7 +63,6 @@
             this.label1.Size = new System.Drawing.Size(372, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "AikonCWD Windows 10 Script GUI";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
             // 
@@ -306,6 +305,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AikonCWD W10 Script GUI";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

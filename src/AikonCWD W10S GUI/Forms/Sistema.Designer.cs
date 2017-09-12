@@ -134,6 +134,7 @@
             this.btn_14_no.TabIndex = 83;
             this.btn_14_no.Text = "No";
             this.btn_14_no.UseVisualStyleBackColor = true;
+            this.btn_14_no.Click += new System.EventHandler(this.btn_14_no_Click);
             // 
             // btn_14_si
             // 
@@ -143,6 +144,7 @@
             this.btn_14_si.TabIndex = 82;
             this.btn_14_si.Text = "Si";
             this.btn_14_si.UseVisualStyleBackColor = true;
+            this.btn_14_si.Click += new System.EventHandler(this.btn_14_si_Click);
             // 
             // label14
             // 
@@ -161,6 +163,7 @@
             this.btn_13_no.TabIndex = 80;
             this.btn_13_no.Text = "No";
             this.btn_13_no.UseVisualStyleBackColor = true;
+            this.btn_13_no.Click += new System.EventHandler(this.btn_13_no_Click);
             // 
             // btn_13_si
             // 
@@ -170,6 +173,7 @@
             this.btn_13_si.TabIndex = 79;
             this.btn_13_si.Text = "Si";
             this.btn_13_si.UseVisualStyleBackColor = true;
+            this.btn_13_si.Click += new System.EventHandler(this.btn_13_si_Click);
             // 
             // label15
             // 
@@ -215,6 +219,7 @@
             this.btn_11_no.TabIndex = 74;
             this.btn_11_no.Text = "No";
             this.btn_11_no.UseVisualStyleBackColor = true;
+            this.btn_11_no.Click += new System.EventHandler(this.btn_11_no_Click);
             // 
             // btn_11_si
             // 
@@ -224,6 +229,7 @@
             this.btn_11_si.TabIndex = 73;
             this.btn_11_si.Text = "Si";
             this.btn_11_si.UseVisualStyleBackColor = true;
+            this.btn_11_si.Click += new System.EventHandler(this.btn_11_si_Click);
             // 
             // label9
             // 
@@ -242,6 +248,7 @@
             this.btn_10_no.TabIndex = 71;
             this.btn_10_no.Text = "No";
             this.btn_10_no.UseVisualStyleBackColor = true;
+            this.btn_10_no.Click += new System.EventHandler(this.btn_10_no_Click);
             // 
             // btn_10_si
             // 
@@ -251,6 +258,7 @@
             this.btn_10_si.TabIndex = 70;
             this.btn_10_si.Text = "Si";
             this.btn_10_si.UseVisualStyleBackColor = true;
+            this.btn_10_si.Click += new System.EventHandler(this.btn_10_si_Click);
             // 
             // label10
             // 
@@ -269,6 +277,7 @@
             this.btn_9_no.TabIndex = 68;
             this.btn_9_no.Text = "No";
             this.btn_9_no.UseVisualStyleBackColor = true;
+            this.btn_9_no.Click += new System.EventHandler(this.btn_9_no_Click);
             // 
             // btn_9_si
             // 
@@ -278,6 +287,7 @@
             this.btn_9_si.TabIndex = 67;
             this.btn_9_si.Text = "Si";
             this.btn_9_si.UseVisualStyleBackColor = true;
+            this.btn_9_si.Click += new System.EventHandler(this.btn_9_si_Click);
             // 
             // label11
             // 
@@ -296,6 +306,7 @@
             this.btn_8_no.TabIndex = 65;
             this.btn_8_no.Text = "No";
             this.btn_8_no.UseVisualStyleBackColor = true;
+            this.btn_8_no.Click += new System.EventHandler(this.btn_8_no_Click);
             // 
             // btn_8_si
             // 
@@ -305,6 +316,7 @@
             this.btn_8_si.TabIndex = 64;
             this.btn_8_si.Text = "Si";
             this.btn_8_si.UseVisualStyleBackColor = true;
+            this.btn_8_si.Click += new System.EventHandler(this.btn_8_si_Click);
             // 
             // label12
             // 
@@ -323,6 +335,7 @@
             this.btn_7_no.TabIndex = 62;
             this.btn_7_no.Text = "No";
             this.btn_7_no.UseVisualStyleBackColor = true;
+            this.btn_7_no.Click += new System.EventHandler(this.btn_7_no_Click);
             // 
             // btn_7_si
             // 
@@ -332,6 +345,7 @@
             this.btn_7_si.TabIndex = 61;
             this.btn_7_si.Text = "Si";
             this.btn_7_si.UseVisualStyleBackColor = true;
+            this.btn_7_si.Click += new System.EventHandler(this.btn_7_si_Click);
             // 
             // label13
             // 
@@ -350,6 +364,7 @@
             this.btn_6_no.TabIndex = 59;
             this.btn_6_no.Text = "No";
             this.btn_6_no.UseVisualStyleBackColor = true;
+            this.btn_6_no.Click += new System.EventHandler(this.btn_6_no_Click);
             // 
             // btn_6_si
             // 
@@ -359,6 +374,7 @@
             this.btn_6_si.TabIndex = 58;
             this.btn_6_si.Text = "Si";
             this.btn_6_si.UseVisualStyleBackColor = true;
+            this.btn_6_si.Click += new System.EventHandler(this.btn_6_si_Click);
             // 
             // label7
             // 
@@ -377,6 +393,7 @@
             this.btn_5_no.TabIndex = 56;
             this.btn_5_no.Text = "No";
             this.btn_5_no.UseVisualStyleBackColor = true;
+            this.btn_5_no.Click += new System.EventHandler(this.btn_5_no_Click);
             // 
             // btn_5_si
             // 
@@ -386,6 +403,7 @@
             this.btn_5_si.TabIndex = 55;
             this.btn_5_si.Text = "Si";
             this.btn_5_si.UseVisualStyleBackColor = true;
+            this.btn_5_si.Click += new System.EventHandler(this.btn_5_si_Click);
             // 
             // label6
             // 
@@ -404,6 +422,7 @@
             this.btn_4_no.TabIndex = 53;
             this.btn_4_no.Text = "No";
             this.btn_4_no.UseVisualStyleBackColor = true;
+            this.btn_4_no.Click += new System.EventHandler(this.btn_4_no_Click);
             // 
             // btn_4_si
             // 
@@ -413,6 +432,7 @@
             this.btn_4_si.TabIndex = 52;
             this.btn_4_si.Text = "Si";
             this.btn_4_si.UseVisualStyleBackColor = true;
+            this.btn_4_si.Click += new System.EventHandler(this.btn_4_si_Click);
             // 
             // label5
             // 
@@ -431,6 +451,7 @@
             this.btn_3_no.TabIndex = 50;
             this.btn_3_no.Text = "No";
             this.btn_3_no.UseVisualStyleBackColor = true;
+            this.btn_3_no.Click += new System.EventHandler(this.btn_3_no_Click);
             // 
             // btn_3_si
             // 
@@ -440,6 +461,7 @@
             this.btn_3_si.TabIndex = 49;
             this.btn_3_si.Text = "Si";
             this.btn_3_si.UseVisualStyleBackColor = true;
+            this.btn_3_si.Click += new System.EventHandler(this.btn_3_si_Click);
             // 
             // label4
             // 
@@ -458,6 +480,7 @@
             this.btn_2_no.TabIndex = 47;
             this.btn_2_no.Text = "No";
             this.btn_2_no.UseVisualStyleBackColor = true;
+            this.btn_2_no.Click += new System.EventHandler(this.btn_2_no_Click);
             // 
             // btn_2_si
             // 
@@ -467,6 +490,7 @@
             this.btn_2_si.TabIndex = 46;
             this.btn_2_si.Text = "Si";
             this.btn_2_si.UseVisualStyleBackColor = true;
+            this.btn_2_si.Click += new System.EventHandler(this.btn_2_si_Click);
             // 
             // label3
             // 
@@ -494,6 +518,7 @@
             this.btn_1_si.TabIndex = 43;
             this.btn_1_si.Text = "Si";
             this.btn_1_si.UseVisualStyleBackColor = true;
+            this.btn_1_si.Click += new System.EventHandler(this.btn_1_si_Click);
             // 
             // label2
             // 

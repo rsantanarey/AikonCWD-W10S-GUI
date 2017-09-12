@@ -103,6 +103,7 @@
             this.btn_spyware_solucionar.TabIndex = 4;
             this.btn_spyware_solucionar.Text = "Solucionar";
             this.btn_spyware_solucionar.UseVisualStyleBackColor = true;
+            this.btn_spyware_solucionar.Click += new System.EventHandler(this.btn_spyware_solucionar_Click);
             // 
             // btn_spyware_habilitar
             // 
@@ -112,6 +113,7 @@
             this.btn_spyware_habilitar.TabIndex = 3;
             this.btn_spyware_habilitar.Text = "Habilitar";
             this.btn_spyware_habilitar.UseVisualStyleBackColor = true;
+            this.btn_spyware_habilitar.Click += new System.EventHandler(this.btn_spyware_habilitar_Click);
             // 
             // btn_spyware_deshabilitar
             // 
@@ -121,6 +123,7 @@
             this.btn_spyware_deshabilitar.TabIndex = 2;
             this.btn_spyware_deshabilitar.Text = "Deshabilitar";
             this.btn_spyware_deshabilitar.UseVisualStyleBackColor = true;
+            this.btn_spyware_deshabilitar.Click += new System.EventHandler(this.btn_spyware_deshabilitar_Click);
             // 
             // label4
             // 
@@ -152,6 +155,7 @@
             this.btn_onedrive_desinstalar.TabIndex = 7;
             this.btn_onedrive_desinstalar.Text = "Desinstalar";
             this.btn_onedrive_desinstalar.UseVisualStyleBackColor = true;
+            this.btn_onedrive_desinstalar.Click += new System.EventHandler(this.btn_onedrive_desinstalar_Click);
             // 
             // label1
             // 
@@ -170,6 +174,7 @@
             this.btn_onedrive_habilitar.TabIndex = 6;
             this.btn_onedrive_habilitar.Text = "Habilitar";
             this.btn_onedrive_habilitar.UseVisualStyleBackColor = true;
+            this.btn_onedrive_habilitar.Click += new System.EventHandler(this.btn_onedrive_habilitar_Click);
             // 
             // btn_onedrive_deshabilitar
             // 
@@ -179,6 +184,7 @@
             this.btn_onedrive_deshabilitar.TabIndex = 5;
             this.btn_onedrive_deshabilitar.Text = "Deshabilitar";
             this.btn_onedrive_deshabilitar.UseVisualStyleBackColor = true;
+            this.btn_onedrive_deshabilitar.Click += new System.EventHandler(this.btn_onedrive_deshabilitar_Click);
             // 
             // groupBox3
             // 
@@ -202,6 +208,7 @@
             this.btn_cortana_reinstalar.TabIndex = 11;
             this.btn_cortana_reinstalar.Text = "Reinstalar";
             this.btn_cortana_reinstalar.UseVisualStyleBackColor = true;
+            this.btn_cortana_reinstalar.Click += new System.EventHandler(this.btn_cortana_reinstalar_Click);
             // 
             // btn_cortana_desinstalar
             // 
@@ -211,6 +218,7 @@
             this.btn_cortana_desinstalar.TabIndex = 10;
             this.btn_cortana_desinstalar.Text = "Desinstalar";
             this.btn_cortana_desinstalar.UseVisualStyleBackColor = true;
+            this.btn_cortana_desinstalar.Click += new System.EventHandler(this.btn_cortana_desinstalar_Click);
             // 
             // label2
             // 
@@ -229,6 +237,7 @@
             this.btn_cortana_habilitar.TabIndex = 9;
             this.btn_cortana_habilitar.Text = "Habilitar";
             this.btn_cortana_habilitar.UseVisualStyleBackColor = true;
+            this.btn_cortana_habilitar.Click += new System.EventHandler(this.btn_cortana_habilitar_Click);
             // 
             // btn_cortana_deshabilitar
             // 
@@ -238,6 +247,7 @@
             this.btn_cortana_deshabilitar.TabIndex = 8;
             this.btn_cortana_deshabilitar.Text = "Deshabilitar";
             this.btn_cortana_deshabilitar.UseVisualStyleBackColor = true;
+            this.btn_cortana_deshabilitar.Click += new System.EventHandler(this.btn_cortana_deshabilitar_Click);
             // 
             // groupBox4
             // 
@@ -259,6 +269,7 @@
             this.btn_defender_habilitar.TabIndex = 7;
             this.btn_defender_habilitar.Text = "Habilitar";
             this.btn_defender_habilitar.UseVisualStyleBackColor = true;
+            this.btn_defender_habilitar.Click += new System.EventHandler(this.btn_defender_habilitar_Click);
             // 
             // btn_defender_deshabilitar
             // 
@@ -268,6 +279,7 @@
             this.btn_defender_deshabilitar.TabIndex = 6;
             this.btn_defender_deshabilitar.Text = "Deshabilitar";
             this.btn_defender_deshabilitar.UseVisualStyleBackColor = true;
+            this.btn_defender_deshabilitar.Click += new System.EventHandler(this.btn_defender_deshabilitar_Click);
             // 
             // label3
             // 
@@ -301,6 +313,7 @@
             this.btn_updater_realizar.TabIndex = 5;
             this.btn_updater_realizar.Text = "Realizar operaciones";
             this.btn_updater_realizar.UseVisualStyleBackColor = true;
+            this.btn_updater_realizar.Click += new System.EventHandler(this.btn_updater_realizar_Click);
             // 
             // checkBox_driver
             // 
@@ -389,6 +402,7 @@
             this.btn_licencia_cdkey.TabIndex = 7;
             this.btn_licencia_cdkey.Text = "Ver";
             this.btn_licencia_cdkey.UseVisualStyleBackColor = true;
+            this.btn_licencia_cdkey.Click += new System.EventHandler(this.btn_licencia_cdkey_Click);
             // 
             // btn_licencia_activacion
             // 
@@ -398,6 +412,7 @@
             this.btn_licencia_activacion.TabIndex = 5;
             this.btn_licencia_activacion.Text = "Ver";
             this.btn_licencia_activacion.UseVisualStyleBackColor = true;
+            this.btn_licencia_activacion.Click += new System.EventHandler(this.btn_licencia_activacion_Click);
             // 
             // groupBox7
             // 
@@ -417,6 +432,7 @@
             this.btn_atajos_ver.TabIndex = 5;
             this.btn_atajos_ver.Text = "Ver atajos de teclado para Windows 10";
             this.btn_atajos_ver.UseVisualStyleBackColor = true;
+            this.btn_atajos_ver.Click += new System.EventHandler(this.btn_atajos_ver_Click);
             // 
             // Microsoft
             // 

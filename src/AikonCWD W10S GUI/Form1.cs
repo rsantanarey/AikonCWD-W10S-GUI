@@ -18,9 +18,17 @@ namespace AikonCWD_W10S_GUI
             this.MaximizeBox = false;
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
+            if (Environment.Is64BitOperatingSystem)
+            {
+                this.Text = "AikonCWD W10 Script GUI - 64 bits";
+            }
+            else
+            {
+                this.Text = "AikonCWD W10 Script GUI - 32 bits";
 
+            }
         }
 
         private void btn_sistema_Click(object sender, EventArgs e)
@@ -67,5 +75,7 @@ namespace AikonCWD_W10S_GUI
         {
             System.Diagnostics.Process.Start("https://github.com/emimontesdeoca/AikonCWD-W10S-GUI");
         }
+
+
     }
 }

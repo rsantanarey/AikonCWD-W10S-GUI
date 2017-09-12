@@ -106,6 +106,7 @@
             this.btn_12.TabIndex = 76;
             this.btn_12.Text = "Rehabilitar";
             this.btn_12.UseVisualStyleBackColor = true;
+            this.btn_12.Click += new System.EventHandler(this.btn_12_Click);
             // 
             // label8
             // 
@@ -124,6 +125,7 @@
             this.btn_11.TabIndex = 73;
             this.btn_11.Text = "Deshabilitar";
             this.btn_11.UseVisualStyleBackColor = true;
+            this.btn_11.Click += new System.EventHandler(this.btn_11_Click);
             // 
             // label9
             // 
@@ -142,6 +144,7 @@
             this.btn_10.TabIndex = 70;
             this.btn_10.Text = "Habilitar";
             this.btn_10.UseVisualStyleBackColor = true;
+            this.btn_10.Click += new System.EventHandler(this.btn_10_Click);
             // 
             // label10
             // 
@@ -160,6 +163,7 @@
             this.btn_9.TabIndex = 67;
             this.btn_9.Text = "Habilitar";
             this.btn_9.UseVisualStyleBackColor = true;
+            this.btn_9.Click += new System.EventHandler(this.btn_9_Click);
             // 
             // label11
             // 
@@ -178,6 +182,7 @@
             this.btn_8.TabIndex = 64;
             this.btn_8.Text = "Habilitar";
             this.btn_8.UseVisualStyleBackColor = true;
+            this.btn_8.Click += new System.EventHandler(this.btn_8_Click);
             // 
             // label12
             // 
@@ -196,6 +201,7 @@
             this.btn_7.TabIndex = 61;
             this.btn_7.Text = "Habilitar";
             this.btn_7.UseVisualStyleBackColor = true;
+            this.btn_7.Click += new System.EventHandler(this.btn_7_Click);
             // 
             // label13
             // 
@@ -214,6 +220,7 @@
             this.btn_6.TabIndex = 58;
             this.btn_6.Text = "Habilitar";
             this.btn_6.UseVisualStyleBackColor = true;
+            this.btn_6.Click += new System.EventHandler(this.btn_6_Click);
             // 
             // label7
             // 
@@ -232,6 +239,7 @@
             this.btn_5.TabIndex = 55;
             this.btn_5.Text = "Habilitar";
             this.btn_5.UseVisualStyleBackColor = true;
+            this.btn_5.Click += new System.EventHandler(this.btn_5_Click);
             // 
             // label6
             // 
@@ -250,6 +258,7 @@
             this.btn_4.TabIndex = 52;
             this.btn_4.Text = "Restaurar";
             this.btn_4.UseVisualStyleBackColor = true;
+            this.btn_4.Click += new System.EventHandler(this.btn_4_Click);
             // 
             // label5
             // 
@@ -268,6 +277,7 @@
             this.btn_3.TabIndex = 49;
             this.btn_3.Text = "Habilitar";
             this.btn_3.UseVisualStyleBackColor = true;
+            this.btn_3.Click += new System.EventHandler(this.btn_3_Click);
             // 
             // label4
             // 
@@ -286,6 +296,7 @@
             this.btn_2.TabIndex = 46;
             this.btn_2.Text = "Habilitar";
             this.btn_2.UseVisualStyleBackColor = true;
+            this.btn_2.Click += new System.EventHandler(this.btn_2_Click);
             // 
             // label3
             // 
@@ -304,6 +315,7 @@
             this.btn_1.TabIndex = 43;
             this.btn_1.Text = "Habilitar";
             this.btn_1.UseVisualStyleBackColor = true;
+            this.btn_1.Click += new System.EventHandler(this.btn_1_Click);
             // 
             // label2
             // 

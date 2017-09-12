@@ -27,7 +27,6 @@ namespace AikonCWD_W10S_GUI
             else
             {
                 this.Text = "AikonCWD W10 Script GUI - 32 bits";
-
             }
         }
 

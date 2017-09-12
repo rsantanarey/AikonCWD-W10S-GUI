@@ -1,2 +1,4 @@
 # AikonCWD-W10S-IDE
-IDE vesrion of AikonCWD Windows 10 performance script.
+GUI version for AikonCWD Windows 10 script.
+
+TODO readme.

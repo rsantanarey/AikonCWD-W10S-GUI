@@ -58,10 +58,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.btn_licencia_cdkey = new System.Windows.Forms.Button();
-            this.btn_licencia_activar = new System.Windows.Forms.Button();
             this.btn_licencia_activacion = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.btn_atajos_ver = new System.Windows.Forms.Button();
@@ -355,14 +353,12 @@
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.label9);
-            this.groupBox6.Controls.Add(this.label8);
             this.groupBox6.Controls.Add(this.label7);
             this.groupBox6.Controls.Add(this.btn_licencia_cdkey);
-            this.groupBox6.Controls.Add(this.btn_licencia_activar);
             this.groupBox6.Controls.Add(this.btn_licencia_activacion);
             this.groupBox6.Location = new System.Drawing.Point(12, 608);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(383, 99);
+            this.groupBox6.Size = new System.Drawing.Size(383, 76);
             this.groupBox6.TabIndex = 8;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Microsoft License";
@@ -375,15 +371,6 @@
             this.label9.Size = new System.Drawing.Size(256, 13);
             this.label9.TabIndex = 10;
             this.label9.Text = "Mostrar el cd-key actual de Win10 (OEM compatible)";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(6, 74);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(234, 13);
-            this.label8.TabIndex = 9;
-            this.label8.Text = "Activar Windows 10 / Microsoft Office con KMS";
             // 
             // label7
             // 
@@ -403,15 +390,6 @@
             this.btn_licencia_cdkey.Text = "Ver";
             this.btn_licencia_cdkey.UseVisualStyleBackColor = true;
             // 
-            // btn_licencia_activar
-            // 
-            this.btn_licencia_activar.Location = new System.Drawing.Point(279, 69);
-            this.btn_licencia_activar.Name = "btn_licencia_activar";
-            this.btn_licencia_activar.Size = new System.Drawing.Size(84, 23);
-            this.btn_licencia_activar.TabIndex = 6;
-            this.btn_licencia_activar.Text = "Acceder";
-            this.btn_licencia_activar.UseVisualStyleBackColor = true;
-            // 
             // btn_licencia_activacion
             // 
             this.btn_licencia_activacion.Location = new System.Drawing.Point(279, 11);
@@ -424,7 +402,7 @@
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.btn_atajos_ver);
-            this.groupBox7.Location = new System.Drawing.Point(12, 713);
+            this.groupBox7.Location = new System.Drawing.Point(12, 690);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(383, 55);
             this.groupBox7.TabIndex = 11;
@@ -444,7 +422,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(410, 780);
+            this.ClientSize = new System.Drawing.Size(410, 757);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
@@ -502,10 +480,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btn_licencia_cdkey;
-        private System.Windows.Forms.Button btn_licencia_activar;
         private System.Windows.Forms.Button btn_licencia_activacion;
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.Button btn_atajos_ver;

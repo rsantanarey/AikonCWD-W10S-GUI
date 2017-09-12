@@ -18,131 +18,56 @@ namespace AikonCWD_W10S_GUI.Logic
         /// <param name="Value">New value</param>
         public static void ChangeRegistry(int RegistryType, string Path, string Subkey, string Value)
         {
-            /// Check for current windows version
-            /// 64 bits OS
+            /// 32 o 63 bits, this is necessary since regedit tree changes 
+            RegistryView OStype;
+
             if (Environment.Is64BitOperatingSystem)
             {
-                /// Dependes on which folder you are looking at, this has to be specified
-                switch (RegistryType)
-                {
-                    /// HKEY_CLASSES_ROOT
-                    case 0:
-                        using (var hklm = RegistryKey.OpenBaseKey(RegistryHive.ClassesRoot, RegistryView.Registry64))
-                        using (var key = hklm.OpenSubKey(Path, true))
-                        {
-                            if (key != null)
-                            {
-                                key.SetValue(Subkey, Value);
-                            }
-                        }
-                        break;
-                    /// HKEY_CURRENT_USER
-                    case 1:
-                        using (var hklm = RegistryKey.OpenBaseKey(RegistryHive.CurrentUser, RegistryView.Registry64))
-                        using (var key = hklm.OpenSubKey(Path, true))
-                        {
-                            if (key != null)
-                            {
-                                key.SetValue(Subkey, Value);
-                            }
-                        }
-                        break;
-                    /// HKEY_LOCAL_MACHINE
-                    case 2:
-                        using (var hklm = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64))
-                        using (var key = hklm.OpenSubKey(Path, true))
-                        {
-                            if (key != null)
-                            {
-                                key.SetValue(Subkey, Value);
-                            }
-                        }
-                        break;
-                    /// HKEY_USERS
-                    case 3:
-                        using (var hklm = RegistryKey.OpenBaseKey(RegistryHive.Users, RegistryView.Registry64))
-                        using (var key = hklm.OpenSubKey(Path, true))
-                        {
-                            if (key != null)
-                            {
-                                key.SetValue(Subkey, Value);
-                            }
-                        }
-                        break;
-                    ///HKEY_CURRENT_CONFIG
-                    case 4:
-                        using (var hklm = RegistryKey.OpenBaseKey(RegistryHive.CurrentConfig, RegistryView.Registry64))
-                        using (var key = hklm.OpenSubKey(Path, true))
-                        {
-                            if (key != null)
-                            {
-                                key.SetValue(Subkey, Value);
-                            }
-                        }
-                        break;
-                }
+                OStype = RegistryView.Registry64;
             }
-            /// 32 bits OS
             else
             {
-                /// Dependes on which folder you are looking at, this has to be specified
-                switch (RegistryType)
+                OStype = RegistryView.Registry32;
+
+            }
+
+            /// Dependes on which folder you are looking at, this has to be specified
+            /// Set to whatever to assign, cant set it to null
+            RegistryHive Folder = RegistryHive.ClassesRoot;
+
+            switch (RegistryType)
+            {
+
+                /// HKEY_CLASSES_ROOT
+                case 0:
+                    Folder = RegistryHive.ClassesRoot;
+
+                    break;
+                /// HKEY_CURRENT_USER
+                case 1:
+                    Folder = RegistryHive.CurrentUser;
+                    break;
+                /// HKEY_LOCAL_MACHINE
+                case 2:
+                    Folder = RegistryHive.LocalMachine;
+                    break;
+                /// HKEY_USERS
+                case 3:
+                    Folder = RegistryHive.Users;
+                    break;
+                ///HKEY_CURRENT_CONFIG
+                case 4:
+                    Folder = RegistryHive.CurrentConfig;
+                    break;
+            }
+
+            /// Do something to the key
+            using (var hklm = RegistryKey.OpenBaseKey(Folder, OStype))
+            using (var key = hklm.OpenSubKey(Path, true))
+            {
+                if (key != null)
                 {
-                    /// HKEY_CLASSES_ROOT
-                    case 0:
-                        using (var hklm = RegistryKey.OpenBaseKey(RegistryHive.ClassesRoot, RegistryView.Registry32))
-                        using (var key = hklm.OpenSubKey(Path, true))
-                        {
-                            if (key != null)
-                            {
-                                key.SetValue(Subkey, Value);
-                            }
-                        }
-                        break;
-                    /// HKEY_CURRENT_USER
-                    case 1:
-                        using (var hklm = RegistryKey.OpenBaseKey(RegistryHive.CurrentUser, RegistryView.Registry32))
-                        using (var key = hklm.OpenSubKey(Path, true))
-                        {
-                            if (key != null)
-                            {
-                                key.SetValue(Subkey, Value);
-                            }
-                        }
-                        break;
-                    /// HKEY_LOCAL_MACHINE
-                    case 2:
-                        using (var hklm = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry32))
-                        using (var key = hklm.OpenSubKey(Path, true))
-                        {
-                            if (key != null)
-                            {
-                                key.SetValue(Subkey, Value);
-                            }
-                        }
-                        break;
-                    /// HKEY_USERS
-                    case 3:
-                        using (var hklm = RegistryKey.OpenBaseKey(RegistryHive.Users, RegistryView.Registry32))
-                        using (var key = hklm.OpenSubKey(Path, true))
-                        {
-                            if (key != null)
-                            {
-                                key.SetValue(Subkey, Value);
-                            }
-                        }
-                        break;
-                    ///HKEY_CURRENT_CONFIG
-                    case 4:
-                        using (var hklm = RegistryKey.OpenBaseKey(RegistryHive.CurrentConfig, RegistryView.Registry32))
-                        using (var key = hklm.OpenSubKey(Path, true))
-                        {
-                            if (key != null)
-                            {
-                                key.SetValue(Subkey, Value);
-                            }
-                        }
-                        break;
+                    key.SetValue(Subkey, Value);
                 }
             }
 

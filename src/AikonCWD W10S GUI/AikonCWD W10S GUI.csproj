@@ -90,6 +90,7 @@
     <Compile Include="Forms\SSD.Designer.cs">
       <DependentUpon>SSD.cs</DependentUpon>
     </Compile>
+    <Compile Include="Logic\CMD.cs" />
     <Compile Include="Logic\Registry.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

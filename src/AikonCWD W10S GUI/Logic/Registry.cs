@@ -28,7 +28,6 @@ namespace AikonCWD_W10S_GUI.Logic
             else
             {
                 OStype = RegistryView.Registry32;
-
             }
 
             /// Dependes on which folder you are looking at, this has to be specified
@@ -37,11 +36,9 @@ namespace AikonCWD_W10S_GUI.Logic
 
             switch (RegistryType)
             {
-
                 /// HKEY_CLASSES_ROOT
                 case 0:
                     Folder = RegistryHive.ClassesRoot;
-
                     break;
                 /// HKEY_CURRENT_USER
                 case 1:

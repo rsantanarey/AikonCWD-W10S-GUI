@@ -25,7 +25,7 @@ namespace AikonCWD_W10S_GUI.Forms
 
         private void btn_1_si_Click(object sender, EventArgs e)
         {
-
+            Logic.CMD.RunPowershellCommand("powershell get-appxpackage -Name *Bing* | Remove-AppxPackage");
         }
 
         #endregion

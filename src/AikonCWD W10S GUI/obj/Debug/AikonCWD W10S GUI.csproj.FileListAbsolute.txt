@@ -13,3 +13,20 @@ D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Propertie
 D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD W10S GUI.csproj.GenerateResource.Cache
 D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD W10S GUI.exe
 D:\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD W10S GUI.pdb
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\bin\Debug\AikonCWD W10S GUI.exe.config
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\bin\Debug\AikonCWD W10S GUI.exe
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\bin\Debug\AikonCWD W10S GUI.pdb
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\bin\Debug\System.Management.Automation.dll
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD W10S GUI.csprojResolveAssemblyReference.cache
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Form1.resources
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Forms.MetroApps.resources
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Forms.Microsoft.resources
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Forms.Rendimiento.resources
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Forms.Restauracion.resources
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Forms.Sistema.resources
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Forms.SSD.resources
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD_W10S_GUI.Properties.Resources.resources
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD W10S GUI.csproj.GenerateResource.Cache
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD W10S GUI.csproj.CoreCompileInputs.cache
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD W10S GUI.exe
+C:\Git\AikonCWD-W10S-GUI\src\AikonCWD W10S GUI\obj\Debug\AikonCWD W10S GUI.pdb

@@ -25,7 +25,8 @@ namespace AikonCWD_W10S_GUI.Forms
 
         private void btn_1_si_Click(object sender, EventArgs e)
         {
-            Logic.CMD.RunPowershellCommand("powershell get-appxpackage -Name *Bing* | Remove-AppxPackage");
+            /// oWSH.RegWrite "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\LaunchTo", 1, "REG_DWORD"
+            //Logic.Registry.ChangeRegistry(1, @"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\LaunchTo",)
         }
 
         #endregion
@@ -48,12 +49,15 @@ namespace AikonCWD_W10S_GUI.Forms
 
         private void btn_3_si_Click(object sender, EventArgs e)
         {
-
+            //"HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize\AppsUseLightTheme", 0, "REG_DWORD"
+            Logic.Registry.ChangeRegistry(2, @"SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize\", "AppsUseLightTheme", "0");
+            Logic.Registry.ChangeRegistry(1, @"SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize\", "AppsUseLightTheme", "0");
         }
 
         private void btn_3_no_Click(object sender, EventArgs e)
         {
-
+            Logic.Registry.ChangeRegistry(2, @"SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize\", "AppsUseLightTheme", "1");
+            Logic.Registry.ChangeRegistry(1, @"SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize\", "AppsUseLightTheme", "1");
 
         }
 
@@ -63,12 +67,13 @@ namespace AikonCWD_W10S_GUI.Forms
 
         private void btn_4_si_Click(object sender, EventArgs e)
         {
-
+            /// oWSH.RegWrite "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel\{20D04FE0-3AEA-1069-A2D8-08002B30309D}", 0, "REG_DWORD"
+            Logic.Registry.ChangeRegistry(1, @"Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel\", "{20D04FE0-3AEA-1069-A2D8-08002B30309D}", "0");
         }
 
         private void btn_4_no_Click(object sender, EventArgs e)
         {
-
+            Logic.Registry.ChangeRegistry(1, @"Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel\", "{20D04FE0-3AEA-1069-A2D8-08002B30309D}", "1");
         }
 
 
@@ -78,12 +83,13 @@ namespace AikonCWD_W10S_GUI.Forms
 
         private void btn_5_si_Click(object sender, EventArgs e)
         {
+            Logic.Registry.ChangeRegistry(1, @"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\", "HideFileExt", "0");
 
         }
 
         private void btn_5_no_Click(object sender, EventArgs e)
         {
-
+            Logic.Registry.ChangeRegistry(1, @"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\", "HideFileExt", "1");
         }
 
 
@@ -93,12 +99,15 @@ namespace AikonCWD_W10S_GUI.Forms
 
         private void btn_6_si_Click(object sender, EventArgs e)
         {
-
+            ///"HKLM\SOFTWARE\Policies\Microsoft\Windows\Personalization\NoLockScreen", 1, "REG_DWORD"
+            Logic.Registry.ChangeRegistry(2, @"SOFTWARE\Policies\Microsoft\Windows\Personalization\", "NoLockScreen", "1");
+            Logic.Registry.ChangeRegistry(2, @"Software\Policies\Microsoft\Windows\System\", "DisableLogonBackgroundImage", "1");
         }
 
         private void btn_6_no_Click(object sender, EventArgs e)
         {
-
+            Logic.Registry.ChangeRegistry(2, @"SOFTWARE\Policies\Microsoft\Windows\Personalization\", "NoLockScreen", "0");
+            Logic.Registry.ChangeRegistry(2, @"Software\Policies\Microsoft\Windows\System\", "DisableLogonBackgroundImage", "0");
         }
 
 
@@ -108,11 +117,13 @@ namespace AikonCWD_W10S_GUI.Forms
 
         private void btn_7_si_Click(object sender, EventArgs e)
         {
+            Logic.Registry.ChangeRegistry(1, @"Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\", "ForceClassicControlPanel", "1");
 
         }
 
         private void btn_7_no_Click(object sender, EventArgs e)
         {
+            Logic.Registry.ChangeRegistry(1, @"Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\", "ForceClassicControlPanel", "0");
 
         }
 
